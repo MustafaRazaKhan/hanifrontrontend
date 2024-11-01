@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Fira+Code:wght@300..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AR One Sans";
+}
+.shadow {
+  box-shadow: 0 0 3px rgb(226, 226, 226) !important;
+}
+.cursive {
+  font-family: cursive;
+}
+tr:hover {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 1s ease-in;
+}
+.tr {
+  transition: all 1s ease-in;
+}
+button {
+  border: none !important;
+  outline: none !important;
+}
+select:focus,
+input:focus {
+  outline: none !important;
+}
+::-webkit-scrollbar {
+  width: 5px;               /* For vertical scrollbar */
+  height: 8px;              /* For horizontal scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: wheat;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff0eaf;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: navy;
+}
